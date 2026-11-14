@@ -19,12 +19,12 @@ Version: **1.1.0**, Android **6.0/API 23+**. Fire OS 5 and non-Android Vega OS d
 4. After the APK downloads, choose **Install**, then **Open**.
 
 ```text
-https://tinyurl.com/rohit-iptv-tv
+https://tinyurl.com/rohit-iptv-tv11
 ```
 
 [Download APK](https://github.com/Rohit148d/iptv-premium-tv-downloads/raw/refs/heads/main/app.apk)
 
-The short URL redirects directly to this repository's APK and requires no sign-in.
+The version-specific short URL redirects to the signed 1.1.0 APK and requires no sign-in.
 Enter the whole short URL in Downloader's address field; it is not a numeric code.
 
 The APK contains the app's public Supabase client identifiers. It includes no service-role key, signing private key, provider account or saved user data. Use your own M3U/Xtream provider details, or sign into your existing app account.
