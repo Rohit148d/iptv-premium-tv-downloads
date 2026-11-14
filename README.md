@@ -2,6 +2,21 @@
 
 Signed Android TV / Android-based Fire TV app. This public repository contains the installation APK, checksum and public signing certificate. Application source and signing keys are managed separately.
 
+## Separate Family Cable TV app
+
+For a simpler live-TV app, install **Family Cable TV 1.0.0** using Downloader:
+
+```text
+https://tinyurl.com/rohit-family-tv
+```
+
+Large controls, automatic return to the last channel, the full selected category
+in one list, direct remote channel switching, guide, favorites, M3U/Xtream sources
+and existing app accounts. It installs alongside the regular app below.
+[Family Cable setup and download](FAMILY-CABLE.md).
+
+## IPTV Premium TV
+
 Version: **1.2.0**, Android **6.0/API 23+**. Fire OS 5 and non-Android Vega OS devices are unsupported. No IPTV subscription or media catalog is supplied.
 
 ## Family TV and remote controls in 1.2.0

@@ -1,5 +1,21 @@
 # Release history
 
+## Family Cable TV 1.0.0 (separate app)
+
+Adds a separate live-TV application with its own icon and application ID. Large
+Watch TV/channel/favorite/category controls, source/account setup, program guide
+and automatic return to the last successful channel. The full selected live
+category loads together, with direct remote switching and no 48-channel pages.
+Existing Supabase accounts and schema-1 sources/preferences are compatible.
+Number buttons jump directly to a channel (66, for example); numberless remotes
+use MENU → Jump to channel. Setup uses large TV forms, and cable navigation has
+an account backup fallback without changing the regular app's Family Mode flag.
+
+The regular IPTV Premium TV and older Family Test APKs remain unchanged.
+Download and installation details are in FAMILY-CABLE.md. Whole-category and
+legacy behavior and number entry are covered by 39 unit tests; physical Firestick and
+authenticated cross-device tests remain outstanding.
+
 ## 1.2.0
 
 Adds Family TV with a large channel browser, all/favorite channel scopes, encrypted last-channel resume and easy return to the full app. The ordinary remote arrows change live channels before video controls can consume them. No permanent live Previous/Next toolbar remains; OK opens the channel list and MENU holds optional controls. Channel changes cross internal pages and wrap in both directions. Existing account/source/preferences formats and the release signing identity are retained.
